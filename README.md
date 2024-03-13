@@ -9,4 +9,4 @@ Our goal in this assignment is to perform sentiment analysis on tweets regarding
 - In this approach, we implement a  Bidirectional RNN experimenting on the number of stacked RNNs ,the number of hidden layers , type of cells (LSTM/ GRU) , skipping connections , gradient clipping , multihead attention and dropout probability.This time, we build a vocabulary out of the embeddiings and perform padding in the batches to ensure the sequential data processing needed in the model.
 
 ## FNN with Word Embeddings
-- In this notebook, we utilize pretrained word embeddings and build a deep neural network experimenting on number of layers,activation functions,optimizers,patience,learning rates, schedulers and dropout rates.
+- In this notebook, we utilize word2VEC embeddings and build a deep neural network experimenting on activation functions,optimizers,patience,learning rates, schedulers,early stopping and dropout rates using the optuna framework.
